@@ -9,4 +9,5 @@ The remaining computations are done with the latest climada_python version (v6.0
 1. Download the burned area data from [(Giglio et al., 2021)](10.5067/MODIS/MCD64A1.061) and save it a directory that follows this structure: 'data/0_original_MODIS'.
 2. Create hazard set (notebook 'create_wildfire_hazard.py')
 3. Compute impacts on population (notebook '') and assets (notebook '')
-4. Compare with EM-DAT and IDMC data (notebook '')
+4. Aggregate on the different regional layers (notebook '')
+5. Compare with EM-DAT and IDMC data (notebook '')
