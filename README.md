@@ -7,6 +7,6 @@ This repository uses both climada_python (core) and climada_petals, which form p
 The remaining computations are done with the latest climada_python version (v6.0.1).
 
 ## Steps
-1. Download the burned area data from [(Giglio et al., 2021)](10.5067/MODIS/MCD64A1.061) and save it a directory that follows this structure: 'data/0_original_MODIS'.
+1. Download the burned area data from [(Giglio et al., 2021)](HTTPS://DOI.ORG/10.5067/MODIS/MCD64A1.061) and save it a directory that follows this structure: 'data/0_original_MODIS'.
 2. Create hazard set (notebook 'create_wildfire_hazard.ipynb')
 3. Compute impacts on population and assets and aggregate them on the different regional layers (notebook 'compute_and_aggregate_impacts.ipynb')
